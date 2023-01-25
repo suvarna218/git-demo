@@ -11,8 +11,7 @@ public class App
         System.out.println( "Hello World!" );
     }
     public void addData(String data) {
-    	System.out.println("hello "+data);
-    	if(data.equals("nerchuko")) {
+    	if(data.equals(Constant.DATA_TYPE)) {
     		System.out.println("welcome to nerchuko batch");
     	}
     }
