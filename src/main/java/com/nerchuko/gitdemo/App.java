@@ -12,5 +12,8 @@ public class App
     }
     public void addData(String data) {
     	System.out.println("hello "+data);
+    	if(data.equals("nerchuko")) {
+    		System.out.println("welcome to nerchuko batch");
+    	}
     }
 }
